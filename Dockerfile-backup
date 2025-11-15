@@ -1,9 +1,9 @@
 # Dockerfile for foodcoopshop-backup service
 ## Use via 
-##  sudo docker compose -f docker-compose.yml up -d --build foodcoopshop-backup
+##  docker compose -f docker-compose.yml up -d --build foodcoopshop-backup
 ## Or alternatively more clean
-##  sudo docker compose -f docker-compose.yml build --no-cache foodcoopshop-backup
-##  sudo docker compose -f docker-compose.yml up -d foodcoopshop-backup
+##  docker compose -f docker-compose.yml build --no-cache foodcoopshop-backup
+##  docker compose -f docker-compose.yml up -d foodcoopshop-backup
 
 FROM debian:bookworm-slim
 
