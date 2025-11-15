@@ -108,7 +108,7 @@ services:
   foodcoopshop-backup:
     build:
       context: . #Default value
-      dockerfile: Dockerfile-backup #Docker file to build with (via sudo docker compose -f docker-compose.yml build foodcoopshop-backup)
+      dockerfile: Dockerfile-backup #Docker file to build with (via docker compose -f docker-compose.yml build foodcoopshop-backup)
     image: foodcoopshop-backup
     container_name: foodcoopshop-backup
     restart: always
