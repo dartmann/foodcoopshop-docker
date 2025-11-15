@@ -7,5 +7,5 @@ echo "*/5 * * * * cd /app && bin/cake queue run >> /proc/1/fd/1 2>&1" > /etc/cro
 # Every 10 minutes: call internal cron endpoint
 echo "*/10 * * * * curl -s http://foodcoopshop-nginx/cron >> /proc/1/fd/1 2>&1" >> /etc/crontabs/root
 
-# Start cron daemon in foreground (logs in stdout -> sudo docker logs foodcoopshop-cron)
+# Start cron daemon in foreground (logs in stdout -> docker logs foodcoopshop-cron)
 exec crond -f -L /dev/stdout
