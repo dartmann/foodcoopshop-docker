@@ -4,9 +4,9 @@
 #   Built image is also used by the foodcoopshop-cron service
 #
 # Invoke this via
-#   sudo docker compose -f foodcoopshop/docker-compose.yml build [--no-cache] --build-arg FCS_VERSION=<VERSION_NUMBER> foodcoopshop-app
+#   docker compose -f foodcoopshop/docker-compose.yml build [--no-cache] --build-arg FCS_VERSION=<VERSION_NUMBER> foodcoopshop-app
 # or
-#   sudo docker compose -f foodcoopshop/docker-compose.yml build [--no-cache] foodcoopshop-backup
+#   docker compose -f foodcoopshop/docker-compose.yml build [--no-cache] foodcoopshop-backup
 # ------
 FROM php:8.4-fpm-alpine
 # System dependencies fuer PHP
