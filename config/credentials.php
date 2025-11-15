@@ -63,7 +63,7 @@ return [
         'debug' => [
             /*'emailFormat' => 'html',*/
             'transport' => 'debug',
-            'from' => ['REPLACEWITHYOUR@MAIL.COM' => 'FoodCoopShop MöWa-Unverpackt'], // [email-address => name] syntax necessary (not only [email]
+            'from' => ['REPLACEWITHYOUR@MAIL.COM' => 'REPLACEWITHYOURNAME'], // [email-address => name] syntax necessary (not only [email]
             'charset' => 'utf-8',
             'headerCharset' => 'utf-8',
         ],
