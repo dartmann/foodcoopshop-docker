@@ -35,7 +35,7 @@ return [
     'Email' => [
         'default' => [
             'transport' => 'default',
-            'from' => ['REPLACEWITHYOUR@MAIL.COM' => 'YOUR NAME'], // [email-address => name] syntax necessary (not only [email]
+            'from' => ['REPLACEWITHYOUR@MAIL.COM' => 'REPLACEWITHYOURNAME'], // [email-address => name] syntax necessary (not only [email]
             'charset' => 'utf-8',
             'headerCharset' => 'utf-8',
         ]
